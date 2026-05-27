@@ -51,12 +51,13 @@ st.markdown("""
     
     /* Gradient Headings (Blue to Green) */
     .main-header h1 {
-        background: linear-gradient(135deg, #1e40af 0%, #047857 100%);
+        background: linear-gradient(135deg, #1d4ed8 0%, #059669 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 2.5rem;
         font-weight: 700;
         margin: 0;
+        color:black;
     }
     
     /* Small text styling - Deep Dark Green/Black-Green mix for premium look */
@@ -405,7 +406,7 @@ with st.sidebar:
 # ============================================
 st.markdown("""
 <div class="main-header">
-    <h1>🧠 AI Text Classifier 2026</h1>
+    <h1 >🧠 AI Text Classifier 2026</h1>
     <p>Next-Generation Spam Detection & Sentiment Analysis</p>
     <div>
         <span class="badge">⚡ Real-time Processing</span>
@@ -806,8 +807,6 @@ with col4:
 st.markdown("""
 <div class="modern-footer">
     <p>🚀 <strong>AI Text Classifier 2026</strong> | Next-Generation Text Intelligence</p>
-    <p>🎯 Spam Detection: 98.5% Accuracy | Sentiment Analysis: 96.8% Accuracy | Real-time Processing</p>
-    <p style="margin-top:10px;">⚡ Powered by Hugging Face Transformers • BERT • RoBERTa • PyTorch</p>
     <p>📊 Enterprise-Grade Text Classification Platform</p>
 </div>
 """, unsafe_allow_html=True)
